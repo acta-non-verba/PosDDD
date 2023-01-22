@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="PublicisPOS.Domain.Entities.Deal">
+    <Position X="5.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAGAQAAAAAQAAAAAIAAAAAgAAAAAACAEgAAAEAAAAA=</HashCode>
+      <FileName>Domain\Entities\Deal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicisPOS.Domain.Entities.InventoryItem">
+    <Position X="3.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQAAAAAAAAAAAAAEAAAAAAIAEAAAgAAAAAA=</HashCode>
+      <FileName>Domain\Entities\InventoryItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicisPOS.Domain.Entities.OrderItem">
+    <Position X="11" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAECAAAAAQAAAAAAAAAAAAAAAAAAAAAAEAAAgAABIAA=</HashCode>
+      <FileName>Domain\Entities\OrderItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicisPOS.Domain.Entities.SaleItem">
+    <Position X="0.5" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQAQAAAAAAAgAAAAAAAAAAAAEgAAgAAAAAA=</HashCode>
+      <FileName>Domain\Entities\SaleItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicisPOS.Domain.ValueObjects.DealType">
+    <Position X="8" Y="5.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="PublicisPOS.Domain.ValueObjects.DealType.DealTypeEnum">
+        <TypeIdentifier>
+          <NewMemberFileName>Domain\ValueObjects\DealType.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Domain\ValueObjects\DealType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicisPOS.Domain.ValueObjects.Discount">
+    <Position X="9.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Domain\ValueObjects\Discount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicisPOS.Domain.ValueObjects.Offer">
+    <Position X="6.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAEAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Domain\ValueObjects\Offer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicisPOS.Domain.ValueObjects.Quantity">
+    <Position X="4.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Domain\ValueObjects\Quantity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicisPOS.Domain.Aggregates.Order">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAEAAAAAAAAAAACAAAAAQBAAACAAAAAAAAA=</HashCode>
+      <FileName>Domain\Aggregates\Order.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicisPOS.Domain.Aggregates.Sale">
+    <Position X="0.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AgFCAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Aggregates\Sale.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicisPOS.Domain.Aggregates.ShoppingCart">
+    <Position X="13" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAgAAEAAAAAAAAAAAAAAAAQBAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Aggregates\ShoppingCart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicisPOS.Domain.Aggregates.CartItem">
+    <Position X="13" Y="2.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQIAEAAAAAAgAAAAAAAAAAAEEAAAgAAAAAA=</HashCode>
+      <FileName>Domain\Aggregates\ShoppingCart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicisPOS.Domain.Exceptions.InvalidDealException" Collapsed="true">
+    <Position X="4.25" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Exceptions\InvalidDealException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="PublicisPOS.Domain.ValueObjects.DiscountType">
+    <Position X="1" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\ValueObjects\DiscountType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PublicisPOS.Domain.ValueObjects.Unit">
+    <Position X="2.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAEAAAAAAAAEAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Domain\ValueObjects\Quantity.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
