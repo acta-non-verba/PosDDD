@@ -7,10 +7,10 @@ Given the below problem statement I implemented the POS system.
 Point-of -sale system for a convenience store. You must use DDD principle and clean architecture while follow SOLID design principles and TDD.
 Assume that a scanner is already available to scan the barcode to add the SKU to the scanned inventory items into the current sale.
 The following is the limited subset of the inventory items:
-SKU	Item			Price
-453	Apples per kg.		INR 75
+SKU	Item			          Price
+453	Apples per kg.		  INR 75
 799	Hair Tie per pair		INR 15
-125	Amul Butter 100g	INR 20
+125	Amul Butter 100g	  INR 20
 
 The following is the list of features that the POS system should support.
 1.	Every morning, the store owner should be able to configure the deals for the day from one of the deals below:
